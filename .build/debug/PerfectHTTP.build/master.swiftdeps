@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "25f6e2714c255ae3bca5f5d7df37a08e"
+build_time: [542226691, 864454000]
+inputs:
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTP-2.0.7/Sources/HTTPFilter.swift": [542226495, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTP-2.0.7/Sources/HTTPHeaders.swift": [542226497, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTP-2.0.7/Sources/HTTPMethod.swift": [542226495, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTP-2.0.7/Sources/HTTPRequest.swift": [542226495, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTP-2.0.7/Sources/HTTPResponse.swift": [542226497, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTP-2.0.7/Sources/MimeReader.swift": [542226495, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTP-2.0.7/Sources/MimeType.swift": [542226497, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTP-2.0.7/Sources/Routing.swift": [542226495, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTP-2.0.7/Sources/StaticFileHandler.swift": [542226497, 0]

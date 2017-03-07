@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/master.swiftdeps"
+  },
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Sources/main.swift": {
+    "dependencies": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/main.d",
+    "object": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/main.swift.o",
+    "swiftmodule": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/main.swiftdeps"
+  }
+}

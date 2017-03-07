@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "14baa90211a28a2cb730dcb7872d8a32"
+build_time: [542226687, 426402000]
+inputs:
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectNet-2.0.5/Sources/Net.swift": [542226511, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectNet-2.0.5/Sources/NetEvent.swift": [542226509, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectNet-2.0.5/Sources/NetNamedPipe.swift": [542226511, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectNet-2.0.5/Sources/NetTCP.swift": [542226511, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectNet-2.0.5/Sources/NetTCPSSL.swift": [542226511, 0]
