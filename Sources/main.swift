@@ -14,14 +14,19 @@ routes.add(method: .get, uri: "/", handler: {
         response.completed()
     }
 )
-routes.add(method: .get, uri: "/api", handler:{
-        request, response in
-        response.setHeader(.contentType, value: "application/javascript")
-        response.status = .created
-        response.appendBody(string: "{\"message\":\"Helloworld\"}")
-        response.completed()
-    }
-)
+routes.add(method: .get, uri: "/api/member", handler:{
+    request, response in
+    response.setHeader(.contentType, value: "application/javascript")
+    response.status = .created
+    response.appendBody(string: "{\"message\":\"Helloworld\"}")
+    response.completed()
+})
+routes.add(method: .get, uri: "/api/member/count", handler:{
+    request, response in
+    
+    
+    
+})
  
 // Add the routes to the server.
 server.addRoutes(routes)
