@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "Routes"
-- "StringLiteralType"
-- "HTTPServer"
 - "server"
+- "PerfectError"
+- "HTTPServer"
+- "UnicodeScalarType"
+- "print"
+- "StringLiteralType"
 - "routes"
 - "AssignmentPrecedence"
-- "print"
 - "FloatLiteralType"
-- "UnicodeScalarType"
 - "IntegerLiteralType"
-- "PerfectError"
+- "Routes"
 depends-member:
 - ["Ps9AnyObject", "addRoutes"]
 - ["Ps9AnyObject", "init"]
@@ -29,6 +29,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "created"]
 - ["Ps23CustomStringConvertible", "get"]
 - ["Ps23CustomStringConvertible", "init"]
 - ["Sd", "deinit"]
@@ -46,6 +47,9 @@ depends-member:
 - ["P11PerfectHTTP12HTTPResponse", "completed"]
 - ["P11PerfectHTTP12HTTPResponse", "deinit"]
 - ["P11PerfectHTTP12HTTPResponse", "setHeader"]
+- ["P11PerfectHTTP12HTTPResponse", "status"]
+- ["O11PerfectHTTP18HTTPResponseStatus", "created"]
+- ["O11PerfectHTTP18HTTPResponseStatus", "deinit"]
 - ["C17PerfectHTTPServer10HTTPServer", "addRoutes"]
 - ["C17PerfectHTTPServer10HTTPServer", "deinit"]
 - ["C17PerfectHTTPServer10HTTPServer", "init"]
@@ -112,6 +116,7 @@ depends-nominal:
 - "Sf"
 - "O11PerfectHTTP10HTTPMethod"
 - "P11PerfectHTTP12HTTPResponse"
+- "O11PerfectHTTP18HTTPResponseStatus"
 - "C17PerfectHTTPServer10HTTPServer"
 - "Ps8Hashable"
 - "Si"
@@ -207,4 +212,4 @@ depends-external:
 - "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/PerfectHTTPServer.swiftmodule"
 - "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTPServer-2.0.9/Sources/CHTTPParser/include/http_parser.h"
 - "/Users/dream/Documents/Mark's Project/BackendSwift/Packages/PerfectHTTPServer-2.0.9/Sources/CHTTPParser/include/module.modulemap"
-interface-hash: "6f7b1103cc3da58acb37c142068cfc32"
+interface-hash: "553fd34daaf162c5655536486903c66f"

@@ -8,11 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "getpwnam"
-- "String"
 - !private "StringLiteralType"
 - !private "setuid"
-- !private "ThrowSystemError"
+- "String"
 - !private "=="
+- !private "ThrowSystemError"
 - !private "setgid"
 - "PerfectServer"
 depends-member:

@@ -1,7 +1,23 @@
 import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
- 
+
+
+//Import ORM
+import StORM
+import MySQLStORM
+
+
+//Config Database Connect
+MySQLConnector.host		= "35.187.218.196"
+MySQLConnector.username	= "root"
+MySQLConnector.password	= "root"
+MySQLConnector.database	= "notify"
+MySQLConnector.port		= 3306
+
+//Import Model
+
+
 // Create HTTP server.
 let server = HTTPServer()
  
@@ -16,10 +32,10 @@ routes.add(method: .get, uri: "/", handler: {
 )
 routes.add(method: .get, uri: "/api/member", handler:{
     request, response in
-    response.setHeader(.contentType, value: "application/javascript")
-    response.status = .created
-    response.appendBody(string: "{\"message\":\"Helloworld\"}")
-    response.completed()
+    let member = Member()
+    
+    
+    
 })
 routes.add(method: .get, uri: "/api/member/count", handler:{
     request, response in

@@ -17,14 +17,14 @@ provides-member:
 - ["C13PerfectThread7Promise", "fail"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Promise"
+- "Error"
+- "ThreadQueue"
+- "AssignmentPrecedence"
+- "Double"
 - "BrokenPromise"
 - "DestroyerOfQueues"
-- "Promise"
-- "AssignmentPrecedence"
 - "Threading"
-- "Error"
-- "Double"
-- "ThreadQueue"
 depends-member:
 - !private ["Ps9AnyObject", "BrokenPromise"]
 - !private ["Ps9AnyObject", "DestroyerOfQueues"]

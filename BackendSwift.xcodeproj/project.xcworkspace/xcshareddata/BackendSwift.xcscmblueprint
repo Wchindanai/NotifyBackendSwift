@@ -3,15 +3,19 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A47270401C4E12170692FDEB5A90EE8AC80F500F" : 9223372036854775807,
+    "735A06A83BD3E78D8C3B53C09F33A6FB7CEBF8E1" : 9223372036854775807,
+    "6F1260245BD69EFA9A05D126763C86280510C6E1" : 9223372036854775807,
     "C4127C9B9C8FDF608B532AD72407863CE2797629" : 9223372036854775807,
-    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : 9223372036854775807,
-    "6F1260245BD69EFA9A05D126763C86280510C6E1" : 9223372036854775807
+    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A090CDE1-96DE-4523-9F13-D93D224304E8",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "29855AEA-2DBC-4475-B491-62EDF53E89E0",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A47270401C4E12170692FDEB5A90EE8AC80F500F" : "BackendSwift\/Packages\/StORM-1.0.1\/",
+    "735A06A83BD3E78D8C3B53C09F33A6FB7CEBF8E1" : "BackendSwift\/Packages\/PerfectLogger-1.0.0\/",
+    "6F1260245BD69EFA9A05D126763C86280510C6E1" : "BackendSwift\/Packages\/PerfectNet-2.0.5\/",
     "C4127C9B9C8FDF608B532AD72407863CE2797629" : "BackendSwift\/Packages\/PerfectHTTPServer-2.0.9\/",
-    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "BackendSwift\/Packages\/PerfectHTTP-2.0.7\/",
-    "6F1260245BD69EFA9A05D126763C86280510C6E1" : "BackendSwift\/Packages\/PerfectNet-2.0.5\/"
+    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "BackendSwift\/Packages\/PerfectHTTP-2.0.7\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "BackendSwift",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -23,9 +27,19 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F1260245BD69EFA9A05D126763C86280510C6E1"
     },
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-Logger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "735A06A83BD3E78D8C3B53C09F33A6FB7CEBF8E1"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-HTTP.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9197B75B1BC29921D6E3B1CCDC2B258350009F3A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SwiftORM\/StORM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A47270401C4E12170692FDEB5A90EE8AC80F500F"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-HTTPServer.git",
