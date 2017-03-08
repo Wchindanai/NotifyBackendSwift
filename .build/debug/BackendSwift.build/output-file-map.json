@@ -7,5 +7,11 @@
     "object": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/main.swift.o",
     "swiftmodule": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/main~partial.swiftmodule",
     "swift-dependencies": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/main.swiftdeps"
+  },
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Sources/MemberModel.swift": {
+    "dependencies": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/MemberModel.d",
+    "object": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/MemberModel.swift.o",
+    "swiftmodule": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/MemberModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/dream/Documents/Mark's Project/BackendSwift/.build/debug/BackendSwift.build/MemberModel.swiftdeps"
   }
 }

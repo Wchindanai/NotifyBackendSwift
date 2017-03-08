@@ -3,9 +3,12 @@ import PerfectHTTP
 import PerfectHTTPServer
 
 
+
+
 //Import ORM
 import StORM
 import MySQLStORM
+
 
 
 //Config Database Connect
@@ -15,12 +18,15 @@ MySQLConnector.password	= "root"
 MySQLConnector.database	= "notify"
 MySQLConnector.port		= 3306
 
-//Import Model
+
 
 
 // Create HTTP server.
 let server = HTTPServer()
- 
+
+
+
+
 // Register your own routes and handlers
 var routes = Routes()
 routes.add(method: .get, uri: "/", handler: {
@@ -30,20 +36,15 @@ routes.add(method: .get, uri: "/", handler: {
         response.completed()
     }
 )
-routes.add(method: .get, uri: "/api/member", handler:{
-    request, response in
-    let member = Member()
-    
-    
-    
-})
+routes.add(method: .get, uri: "/api/member", handler:RequestHandler.getMember)
 routes.add(method: .get, uri: "/api/member/count", handler:{
     request, response in
     
     
     
 })
- 
+
+
 // Add the routes to the server.
 server.addRoutes(routes)
  

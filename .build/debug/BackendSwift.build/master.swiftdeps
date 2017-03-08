@@ -1,5 +1,6 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "dd0e3fec566018aa7170867021732cea"
-build_time: [542285274, 225488000]
+build_time: [542296670, 351198000]
 inputs:
-  "/Users/dream/Documents/Mark's Project/BackendSwift/Sources/main.swift": [542282353, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Sources/main.swift": [542296543, 0]
+  "/Users/dream/Documents/Mark's Project/BackendSwift/Sources/MemberModel.swift": [542296666, 0]
